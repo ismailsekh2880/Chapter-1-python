@@ -1,24 +1,5 @@
-print(''' Twinkle, twinkle, little star,
-How I wonder what you are!
-Up above the world so high,
-Like a diamond in the sky.
+import pyttsx3
+engine = pyttsx3.init()
+engine.say("The club isn’t the best place to find a lover So the bar is where I go Me and my friends at the table doing shots drinking fast and then we talk slow you come over and start up a conversation with just me and trust me I’ll give it a chance now Take my hand stop, put van the man on the jukebox and then we start to dance And now I’m singing like")
+engine.runAndWait()
 
-When the blazing sun is gone,
-When he nothing shines upon,
-Then you show your little light,
-Twinkle, twinkle, all the night.
-
-Then the trav'ller in the dark,
-Thanks you for your tiny spark,
-He could not see which way to go,
-If you did not twinkle so.
-
-In the dark blue sky you keep,
-And often thro' my curtains peep,
-For you never shut your eye,
-Till the sun is in the sky.
-
-'Tis your bright and tiny spark,
-Lights the trav'ller in the dark:
-Tho' I know not what you are,
-Twinkle, twinkle, little star.''')
